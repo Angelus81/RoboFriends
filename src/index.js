@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerserviceWorker();
+// registerserviceWorker();
 
 /// you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
@@ -21,3 +21,4 @@ registerserviceWorker();
 
 // If another variable is added into card.js export const cats
 // then in index.js it will be import { robots, cats }
+
